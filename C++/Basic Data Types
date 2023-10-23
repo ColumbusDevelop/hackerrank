@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int integery;
+    long longy;
+    char chary;
+    float floaty;
+    double doubly;
+    
+    scanf("%d %ld %c %f %lf", &integery, &longy, &chary, &floaty, &doubly);
+    printf("%d \n%ld \n%c \n%f \n%lf \n", integery, longy, chary, floaty, doubly);
+    
+    return 0;
+}
